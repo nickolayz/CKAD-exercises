@@ -24,6 +24,8 @@ kubectl run nginx --image=nginx --restart=Never -n mynamespace
 </p>
 </details>
 
+- [x] Done
+
 ### Create the pod that was just described using YAML
 
 <details><summary>show</summary>
@@ -265,6 +267,8 @@ kubectl get po nginx --output=yaml
 </p>
 </details>
 
+- [x] Done
+
 ### Get information about the pod, including details about potential issues (e.g. pod hasn't started)
 
 <details><summary>show</summary>
@@ -277,6 +281,8 @@ kubectl describe po nginx
 </p>
 </details>
 
+- [x] Done
+
 ### Get pod logs
 
 <details><summary>show</summary>
@@ -288,6 +294,8 @@ kubectl logs nginx
 
 </p>
 </details>
+
+- [x] Done
 
 ### If pod crashed and restarted, get logs about the previous instance
 
@@ -302,6 +310,8 @@ kubectl logs nginx --previous
 
 </p>
 </details>
+
+- [x] Done
 
 ### Execute a simple shell on the nginx pod
 
