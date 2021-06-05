@@ -92,6 +92,8 @@ kubectl logs busybox
 </p>
 </details>
 
+- [x] Done
+
 ### Create a busybox pod (using YAML) that runs the command "env". Run it and see the output
 
 <details><summary>show</summary>
@@ -133,6 +135,8 @@ kubectl logs busybox
 </p>
 </details>
 
+- [x] Done
+
 ### Get the YAML for a new namespace called 'myns' without creating it
 
 <details><summary>show</summary>
@@ -144,6 +148,8 @@ kubectl create namespace myns -o yaml --dry-run=client
 
 </p>
 </details>
+
+- [x] Done
 
 ### Get the YAML for a new ResourceQuota called 'myrq' with hard limits of 1 CPU, 1G memory and 2 pods without creating it
 
@@ -173,6 +179,8 @@ kubectl get po -A
 </p>
 </details>
 
+- [x] Done
+
 ### Create a pod with image nginx called nginx and expose traffic on port 80
 
 <details><summary>show</summary>
@@ -184,6 +192,8 @@ kubectl run nginx --image=nginx --restart=Never --port=80
 
 </p>
 </details>
+
+- [x] Done
 
 ### Change pod's image to nginx:1.7.1. Observe that the container will be restarted as soon as the image gets pulled
 
@@ -327,6 +337,8 @@ kubectl exec -it nginx -- /bin/sh
 </p>
 </details>
 
+- [x] Done
+
 ### Create a busybox pod that echoes 'hello world' and then exits
 
 <details><summary>show</summary>
@@ -341,6 +353,8 @@ kubectl run busybox --image=busybox -it --restart=Never -- /bin/sh -c 'echo hell
 </p>
 </details>
 
+- [x] Done
+
 ### Do the same, but have the pod deleted automatically when it's completed
 
 <details><summary>show</summary>
@@ -353,6 +367,8 @@ kubectl get po # nowhere to be found :)
 
 </p>
 </details>
+
+- [x] Done
 
 ### Create an nginx pod and set an env value as 'var1=val1'. Check the env value existence within the pod
 
