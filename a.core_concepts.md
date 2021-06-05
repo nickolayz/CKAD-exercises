@@ -74,6 +74,8 @@ kubectl run nginx --image=nginx --restart=Never --dry-run=client -o yaml | kubec
 </p>
 </details>
 
+- [x] Done
+
 ### Create a busybox pod (using kubectl command) that runs the command "env". Run it and see the output
 
 <details><summary>show</summary>
